@@ -14,5 +14,13 @@ namespace Factory_inspection_api.Controllers
 
             return View();
         }
+
+        public ActionResult erification()
+        {
+            ViewBag.Title = "erification";
+            ViewBag.Message = "返回是否可以登陆";
+            
+            return View();
+        }
     }
 }
