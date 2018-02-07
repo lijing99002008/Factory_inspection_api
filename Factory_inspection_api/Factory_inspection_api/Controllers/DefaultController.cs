@@ -1,15 +1,16 @@
-﻿using System;
+﻿using Factory_inspection_api.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace Factory_inspection_api.Models
+namespace Factory_inspection_api.Controllers
 {
     public class DefaultController : ApiController
     {
-        Product[] products = new Product[]
+        Models.Product[] products = new Product[]
          {
             new Product { Id = 1, Name = "农夫山泉", Category = "water", Price = 2 },
             new Product { Id = 2, Name = "钢笔", Category = "study", Price = 3.75M },
