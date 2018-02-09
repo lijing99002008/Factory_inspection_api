@@ -351,7 +351,7 @@ namespace WindowsFormsApplication1
             string str ;
 
             //str= HttpGet("http://localhost:1190/api/Default");
-            str = HttpGet("http://172.16.1.16:8580/api/Default");
+            str = HttpGet("http://172.16.1.72:8580/api/Default/1");
 
             textBox1.Text = str;
         }
