@@ -15,11 +15,17 @@ namespace Factory_inspection_api.Controllers
 {
     public class testapiController : ApiController
     {
-
-        public static bool image_upload( byte[] image)
+        /// <summary>
+        /// 上传图片
+        /// </summary>
+        /// <param name="image">二进制图片</param>
+        /// <param name="job_no">工单号</param>
+        /// <returns></returns>
+        public bool image_upload(string job_no, [FromBody] byte[] image)
         {
-            //var resp = new HttpResponseMessage(HttpStatusCode.OK);
             
+            //var resp = new HttpResponseMessage(HttpStatusCode.OK);
+
             return true;
         }
 

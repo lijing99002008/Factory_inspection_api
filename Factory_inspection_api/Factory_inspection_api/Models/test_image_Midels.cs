@@ -24,9 +24,9 @@ namespace Factory_inspection_api.Models
             public string test_no { get; set; }
 
             /// <summary>
-            /// 疵点图
+            /// 疵点图地址           
             /// </summary>
-            public string image { get; set; }
+            public string image_address { get; set; }
             
         }
         public class test_detail_imageMap : EntityTypeConfiguration<test_image_Midels>

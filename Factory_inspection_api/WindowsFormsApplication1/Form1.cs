@@ -350,10 +350,23 @@ namespace WindowsFormsApplication1
         {
             string str ;
 
-            //str= HttpGet("http://localhost:1190/api/Default");
-            str = HttpGet("http://172.16.1.72:8580/api/Default/1");
+            //str = HttpGet("http://localhost:1190/api/Default");
+            //str = HttpGet("http://172.16.1.72:8580/api/Default");
+            str = HttpGet("http://localhost:1190/api/Default");
 
             textBox1.Text = str;
         }
-    }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //    string str;
+
+            //    //str = HttpGet("http://localhost:1190/api/Default");
+            //    //str = HttpGet("http://172.16.1.72:8580/api/Default");
+            //    //str = HttpClientHelpClass.PostResponse("http://localhost:1190/api/testapi","11",);
+
+            //    textBox1.Text = str;
+
+        }
+}
 }

@@ -40,5 +40,7 @@ namespace Factory_inspection_api.Controllers
                 (p) => string.Equals(p.Category, category,
                     StringComparison.OrdinalIgnoreCase));
         }
+
+
     }
 }
